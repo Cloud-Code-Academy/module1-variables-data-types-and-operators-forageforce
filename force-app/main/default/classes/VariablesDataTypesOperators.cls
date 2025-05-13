@@ -190,7 +190,8 @@ public with sharing class VariablesDataTypesOperators {
      * @return The average of the three numbers.
      */
     public static Double averageOfThreeNumbers(Integer a, Integer b, Integer c) {
-        return null; // Replace null with the variable you used to store the result
+        double averageOfNumbers = (a+b+c)/3;
+        return averageOfNumbers; // Replace null with the variable you used to store the result
     }
 
     /**
