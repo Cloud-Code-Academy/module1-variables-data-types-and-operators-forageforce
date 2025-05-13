@@ -62,7 +62,8 @@ public with sharing class VariablesDataTypesOperators {
      * @return The product of the two numbers.
      */
     public static Integer multiplication(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
+        Integer multiplyInteger = a * b;
+        return multiplyInteger; // Replace null with the variable you used to store the result
     }
 
     /**
